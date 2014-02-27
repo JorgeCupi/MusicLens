@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Title" xml:space="preserve">
+    <value>Music Lens</value>
+  </data>
+  <data name="FilterPage_Title" xml:space="preserve">
+    <value>pick filter</value>
+  </data>
+  <data name="PhotoPage_Title" xml:space="preserve">
+    <value>photo</value>
+  </data>
+  <data name="AboutPage_Title" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutPage_TextBlock_Version" xml:space="preserve">
+    <value>Filter Explorer version {0}</value>
+    <comment>{0} is the version number</comment>
+  </data>
+  <data name="App_MessageBox_UnsupportedImage_Caption" xml:space="preserve">
+    <value>Unsupported image type</value>
+  </data>
+  <data name="App_MessageBox_UnsupportedImage_Message" xml:space="preserve">
+    <value>Unfortunately the type of the image you selected is unsupported by this application.</value>
+  </data>
+  <data name="PhotoPage_MessageBox_Discard_Caption" xml:space="preserve">
+    <value>Discard current image?</value>
+  </data>
+  <data name="PhotoPage_MessageBox_Discard_Message" xml:space="preserve">
+    <value>Current image has not been saved. Do you wish to discard the applied filters?
+
+Press ok to discard changes and go back to the camera roll stream. Press cancel to continue working with the current image.</value>
+  </data>
+  <data name="App_Menu_About" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="PhotoPage_Button_AddFilter" xml:space="preserve">
+    <value>add filter</value>
+  </data>
+  <data name="PhotoPage_Button_StartMusic" xml:space="preserve">
+    <value>get song</value>
+  </data>
+  <data name="PhotoPage_Button_Share" xml:space="preserve">
+    <value>Share it</value>
+  </data>
+  <data name="PhotoPage_Menu_Text" xml:space="preserve">
+    <value>Style it!</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="PhotoPage_TextBlock_Filters" xml:space="preserve">
+    <value>APPLIED FILTERS</value>
+  </data>
+  <data name="PhotoPage_TextBlock_NoFilters" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="AboutPage_TextBlock_About" xml:space="preserve">
+    <value>Filter Explorer application demonstrates some of the image editing capabilities and performance of the Nokia Image Editing SDK by allowing you to apply a number of filter layers to existing or newly captured photos.</value>
+  </data>
+  <data name="StreamPage_Button_More" xml:space="preserve">
+    <value>more</value>
+  </data>
+  <data name="App_MessageBox_SaveFailed_Caption" xml:space="preserve">
+    <value>Saving image failed</value>
+  </data>
+  <data name="App_MessageBox_SaveFailed_Message" xml:space="preserve">
+    <value>Unfortunately saving the image failed. Would you mind trying again?</value>
+  </data>
+  <data name="PhotoPage_Button_Save" xml:space="preserve">
+    <value>save photo</value>
+  </data>
+  <data name="StreamPage_Button_Camera" xml:space="preserve">
+    <value>capture photo</value>
+  </data>
+  <data name="StreamPage_Button_Library" xml:space="preserve">
+    <value>pick photo</value>
+  </data>
+  <data name="StreamPage_Button_Refresh" xml:space="preserve">
+    <value>refresh</value>
+  </data>
+  <data name="PhotoPage_Menu_Clear_Filters" xml:space="preserve">
+    <value>Clear filters</value>
+  </data>
+  <data name="PhotoPage_Address" xml:space="preserve">
+    <value>Near</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Address" xml:space="preserve">
+    <value>Show your location</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Address_No" xml:space="preserve">
+    <value>Hide your location</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Time" xml:space="preserve">
+    <value>Show current time</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Time_No" xml:space="preserve">
+    <value>Hide current time</value>
+  </data>
+  <data name="PhotoPage_Address_Error" xml:space="preserve">
+    <value>Sorry, we couldn't get your location.</value>
+  </data>
+  <data name="PhotoPage_Image_Saved" xml:space="preserve">
+    <value>Image saved.</value>
+  </data>
+  <data name="StreamPage_NoMusic" xml:space="preserve">
+    <value>Since you're not listening to music right now, we'll start it for you.</value>
+  </data>
+  <data name="Music_NoMusic_Artist" xml:space="preserve">
+    <value>Seriously? No music?</value>
+  </data>
+  <data name="Music_NoMusic_NowPlaying" xml:space="preserve">
+    <value>#NotPlayingAnything</value>
+  </data>
+  <data name="Music_NoMusic_Song" xml:space="preserve">
+    <value>Music Lens is Sad :(</value>
+  </data>
+  <data name="StreamPage_NoMusicOnPhone" xml:space="preserve">
+    <value>Wow!!! You don't have music on your cellphone :(.</value>
+  </data>
+  <data name="PhotoPage_Address_GPSDisabled" xml:space="preserve">
+    <value>GPS is disabled on your phone.</value>
+  </data>
+  <data name="App_IsTrial" xml:space="preserve">
+    <value>Ouch! This is not available on the trial version. To buy Music Lens, press Ok, Press Cancel if you want to still use the trial version.</value>
+  </data>
+  <data name="App_PickAlbum" xml:space="preserve">
+    <value>Pic from album</value>
+  </data>
+  <data name="App_RateMe" xml:space="preserve">
+    <value>Rate me</value>
+  </data>
+  <data name="App_TakePic" xml:space="preserve">
+    <value>Take a pic</value>
+  </data>
+  <data name="AboutPage_AboutTheApp" xml:space="preserve">
+    <value>Music Lens is an exclusive Lens App for Windows Phone that let you share the amazing photos you take adding the music you're listening at the moment. Plus, you can also add your position or current time in the picture. And on top of that, you can add some amazing filters provided by Nokia itself.
+
+If you have any questions regarding Music Lens, or you would love to have some new features, let me know writing at jcupi@outlook.com.
+
+Coming soon to Windows 8 as fast as possible! Thanks for downloading the App. 
+
+Because every picture deserves some background music, Music Lens is here.
+</value>
+  </data>
+  <data name="AboutPage_PivotAbout_Title" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutPage_PivotPrivacy_Title" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="AboutPage_PrivacyPolicy" xml:space="preserve">
+    <value>On using your Location.
+- Music Lens does not store nor upload information about your location at any time.
+- Music Lens only uses your location, in an optional way, to obtain the street and city you're currently at, just so you can add that information as a label in your picture.
+</value>
+  </data>
+  <data name="App_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="EditPage_Title" xml:space="preserve">
+    <value>Text settings</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Lyrics" xml:space="preserve">
+    <value>Show lyrics</value>
+  </data>
+  <data name="PhotoPage_NoLyrics" xml:space="preserve">
+    <value>We couldn't find the lyrics :(</value>
+  </data>
+  <data name="EditPage_NoLyrics" xml:space="preserve">
+    <value>Write the lyrics for the song here.</value>
+  </data>
+  <data name="PhotoPage_Menu_Show_Lyrics_No" xml:space="preserve">
+    <value>Hide current lyrics</value>
+  </data>
+  <data name="AboutPage_PivotLyrics_Title" xml:space="preserve">
+    <value>Lyrics</value>
+  </data>
+  <data name="AboutPage_Textblock_Lyrics" xml:space="preserve">
+    <value>Lyrics are provided by the awesome guys at LYRICSnMUSIC, the ultimate music search engine that also contains information about when your favorite band is touring and more cool stuff.
+
+Go check their website. If you're an indie artist and would like to see your lyrics appearing on LYRICSnMUSIC and of course on Music Lens, contact them.
+
+LYRICSnMUSIC, a lyric and music search engine for music people, by music people.</value>
+  </data>
+  <data name="PhotoPage_NoInternet" xml:space="preserve">
+    <value>Oops! Check your Internet connection :(</value>
+  </data>
+  <data name="AboutPage_PivotThx_Title" xml:space="preserve">
+    <value>Thanks to</value>
+  </data>
+  <data name="AboutPage_ThxTo" xml:space="preserve">
+    <value>My Jedi master: Walter Novoa (@WarNov), if Music Lens has reached significant updates it's because of his humongous feedback! :) I'm reaching the third major update in less than three weeks because of this great guy who works at Microsoft. You rock WarNov!</value>
+  </data>
+</root>
